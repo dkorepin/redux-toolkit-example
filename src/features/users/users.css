@@ -1,0 +1,18 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  width: 300px;
+}
+
+.item {
+  display: flex;
+  flex-direction: row;
+  transition: all 0.4s ease-out;
+  color: #000;
+}
+
+.item:hover {
+  cursor: pointer;
+  color: rgb(38, 103, 224);
+}

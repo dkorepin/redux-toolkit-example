@@ -1,0 +1,13 @@
+.posts {
+  width: 300px;
+}
+
+.post {
+  transition: all 0.4s ease-out;
+  margin-bottom: 8px;
+}
+
+.post:hover {
+  cursor: pointer;
+  color: rgb(38, 103, 224);
+}
